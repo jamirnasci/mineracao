@@ -1,0 +1,12 @@
+PS C:\Users\silk2\Downloads\mineracao-main\mineracao-main> python .\rede_n_ufpa.py
+Best parameters found: {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (100,), 'max_iter': 200, 'solver': 'adam'}
+Best cross-validation accuracy: 0.9101250000000001
+              precision    recall  f1-score   support
+
+        high       0.91      1.00      0.95      1180
+         low       0.92      1.00      0.96       639
+      medium       1.00      0.08      0.15       181
+
+    accuracy                           0.92      2000
+   macro avg       0.95      0.69      0.69      2000
+weighted avg       0.92      0.92      0.88      2000

@@ -1,0 +1,11 @@
+Best n_neighbors found: {'n_neighbors': 6}
+Best cross-validation accuracy: 0.907
+              precision    recall  f1-score   support
+
+        high       0.91      0.98      0.95      1180
+         low       0.92      0.97      0.95       639
+      medium       0.33      0.09      0.15       181
+
+    accuracy                           0.90      2000
+   macro avg       0.72      0.68      0.68      2000
+weighted avg       0.86      0.90      0.87      2000

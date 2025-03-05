@@ -1,0 +1,13 @@
+Best n_neighbors found: {'n_neighbors': 6}
+PS C:\Users\silk2\Downloads\mineracao-main\mineracao-main> python .\svm_ufpa.py
+Best parameters found: {'C': 1, 'gamma': 'scale', 'kernel': 'linear'}
+Best cross-validation accuracy: 0.90825
+              precision    recall  f1-score   support
+
+        high       0.91      1.00      0.95      1180
+         low       0.92      1.00      0.96       639
+      medium       1.00      0.07      0.12       181
+
+    accuracy                           0.92      2000
+   macro avg       0.94      0.69      0.68      2000
+weighted avg       0.92      0.92      0.88      2000
